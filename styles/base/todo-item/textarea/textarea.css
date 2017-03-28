@@ -1,0 +1,19 @@
+.todo-item_textarea {
+  color: #666666;
+  padding: 10px 25px 10px 60px;
+  box-sizing: border-box;
+  width: 100%;
+  height: inherit;
+  border: none;
+  resize: none;
+  overflow: hidden;
+}
+
+.__ready textarea {
+  color: #cccccc;
+  text-decoration: line-through;
+}
+
+.todo-item:hover .todo-item_textarea {
+  background-color: #fafafa;
+}

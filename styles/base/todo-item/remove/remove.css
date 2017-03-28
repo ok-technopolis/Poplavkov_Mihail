@@ -1,0 +1,15 @@
+.todo-item_remove {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: inherit;
+  width: 50px;
+  background-color: inherit;
+  background: url("../../../../src/icons/close.png") no-repeat 50% 50%;
+  border: none;
+  opacity: 0;
+}
+
+.todo-item:hover .todo-item_remove {
+  opacity: 0.7;
+}

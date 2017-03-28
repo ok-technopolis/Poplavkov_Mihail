@@ -1,0 +1,9 @@
+.todos-add_input {
+  font-style: italic;
+  color: #cccccc;
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: inherit;
+  padding-left: 60px;
+}

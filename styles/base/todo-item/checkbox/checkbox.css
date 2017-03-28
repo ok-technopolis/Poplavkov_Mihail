@@ -1,0 +1,33 @@
+.todo-item_checkbox {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+.todo-item_checkbox input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.todo-item_checkbox input[type="checkbox"]::before {
+  visibility: visible;
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border: 1px solid #e6e6e6;
+}
+
+.todo-item_checkbox input[type="checkbox"]:checked::before {
+  background: white url("../../../../src/icons/completed.png") no-repeat 50% 50%;
+  border-color: #5dc2af;
+}
+
+.todo-item:hover input[type="checkbox"]:checked::before {
+  background-color: #fafafa;
+}
