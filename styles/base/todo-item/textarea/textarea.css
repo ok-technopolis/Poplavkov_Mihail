@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.__ready textarea {
+.todo-item.__ready textarea {
   color: #cccccc;
   text-decoration: line-through;
 }

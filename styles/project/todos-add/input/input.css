@@ -1,9 +1,13 @@
 .todos-add_input {
-  font-style: italic;
-  color: #cccccc;
+  color: #666666;
   border: none;
   box-sizing: border-box;
   width: 100%;
   height: inherit;
   padding-left: 60px;
+}
+
+.todos-add_input::placeholder {
+  color: #cccccc;
+  font-style: italic;
 }

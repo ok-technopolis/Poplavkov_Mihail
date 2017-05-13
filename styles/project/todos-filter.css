@@ -1,8 +1,12 @@
 .todos-filter {
-  background-color: white;
+  background-color: inherit;
   border: none;
   font-size: 12px;
   color: #666666;
+}
+
+.todos-filter:hover {
+  background-color: #fafafa;
 }
 
 .todos-filters .__active {

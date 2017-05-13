@@ -32,46 +32,59 @@
 
     <div class="todos-add">
       <button class="todos-add_select-all" aria-label="Отметить как выполненные все"></button>
-      <input class="todos-add_input" value="What needs to be done?" aria-label="Поле добавления todo">
+      <input class="todos-add_input" placeholder="What needs to be done?" aria-label="Поле добавления todo">
     </div>
 
     <div class="todos-list">
       <div class="todo-item">
-        <label>
-          <div class="todo-item_checkbox">
-            <input type="checkbox" aria-label="Отметить как выполненное">
+        <div class="todo-item_checkbox">
+          <input type="checkbox"
+                 class="todo-item_checkbox_target"
+                 aria-label="Отметить как выполненное">
+          <div class="todo-item_checkbox_visual">
+            <div class="todo-item_checkbox_visual_icon"></div>
           </div>
-        </label>
+        </div>
         <textarea class="todo-item_textarea">Выучить CSS</textarea>
         <button class="todo-item_remove" aria-label="Удалить todo"></button>
       </div>
 
       <div class="todo-item __ready">
-        <label>
-          <div class="todo-item_checkbox">
-            <input type="checkbox" checked="checked" aria-label="Отметить как невыполненное">
+        <div class="todo-item_checkbox">
+          <input type="checkbox"
+                 class="todo-item_checkbox_target"
+                 checked="checked"
+                 aria-label="Отметить как невыполненное">
+          <div class="todo-item_checkbox_visual">
+            <div class="todo-item_checkbox_visual_icon"></div>
           </div>
-        </label>
+        </div>
         <textarea class="todo-item_textarea">Выучить HTML</textarea>
         <button class="todo-item_remove" aria-label="Удалить todo"></button>
       </div>
 
       <div class="todo-item">
-        <label>
-          <div class="todo-item_checkbox">
-            <input type="checkbox" aria-label="Отметить как выполненное">
+        <div class="todo-item_checkbox">
+          <input type="checkbox"
+                 class="todo-item_checkbox_target"
+                 aria-label="Отметить как выполненное">
+          <div class="todo-item_checkbox_visual">
+            <div class="todo-item_checkbox_visual_icon"></div>
           </div>
-        </label>
+        </div>
         <textarea class="todo-item_textarea">Выучить JS</textarea>
         <button class="todo-item_remove" aria-label="Удалить todo"></button>
       </div>
 
       <div class="todo-item">
-        <label>
-          <div class="todo-item_checkbox">
-            <input type="checkbox" aria-label="Отметить как выполненное">
+        <div class="todo-item_checkbox">
+          <input type="checkbox"
+                 class="todo-item_checkbox_target"
+                 aria-label="Отметить как выполненное">
+          <div class="todo-item_checkbox_visual">
+            <div class="todo-item_checkbox_visual_icon"></div>
           </div>
-        </label>
+        </div>
         <textarea class="todo-item_textarea">Запилить сайт</textarea>
         <button class="todo-item_remove" aria-label="Удалить todo"></button>
       </div>
