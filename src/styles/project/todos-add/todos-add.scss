@@ -1,0 +1,30 @@
+@import "../../config/globals";
+.todos-add  {
+  border-bottom: 1px solid $c-common-border;
+  position: relative;
+  height: 50px;
+  }
+
+  .todos-add_input {
+    color: $c-gray;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: inherit;
+    padding-left: 60px;
+  }
+
+  .todos-add_input::placeholder {
+    color: $c-ultra-light;
+    font-style: italic;
+  }
+
+  .todos-add_select-all {
+    position: absolute;
+    background: white url("../../../src/icons/select-all.png") no-repeat 50% 50%;
+    border: none;
+    top: 0;
+    left: 7px;
+    width: 35px;
+    height: inherit;
+  }

@@ -1,0 +1,28 @@
+@import "../../config/globals";
+
+.todos-main {
+  position: relative;
+  background-color: $c-todos-main-bg;
+  display: inline-block;
+  width: $main-wrapper-width;
+  min-width: $main-wrapper-min-width;
+  }
+  .todos-main:before,
+    .todos-main:after {
+        position: absolute;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(#000, .2);
+        top: 100%;
+        z-index: -1;
+        content: '';
+        }
+    .todos-main:before {
+        height: 8px;
+        left: 4px;
+        right: 4px;
+        }
+    .todos-main:after {
+        height: 4px;
+        left: 2px;
+        right: 2px;
+        }

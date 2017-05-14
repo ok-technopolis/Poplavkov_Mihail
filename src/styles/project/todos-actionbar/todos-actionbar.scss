@@ -1,0 +1,30 @@
+@import "../../config/globals";
+
+.todos-actionbar {
+  height: 35px;
+  background-color: $c-todos-main-bg;
+  font-size: $fs_x-small;
+  box-sizing: border-box;
+  }
+
+  .todos-actionbar_clear-completed {
+    background-color: inherit;
+    border: none;
+    font-size: $fs_x-small;
+    color: $c-gray;
+    float: right;
+    margin: 10px;
+  }
+
+  .todos-actionbar_counter {
+    float: left;
+    color: $c-gray;
+    font-size: $fs_x-small;
+    margin: 10px;
+  }
+
+  .todos-filters {
+    display: inline-block;
+    height: 15px;
+    margin: 8px 0;
+  }
